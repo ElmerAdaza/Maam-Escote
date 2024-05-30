@@ -1,0 +1,122 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #150725;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+#quiz-container {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+#question-number,
+#question-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#question-number {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+#question-container {
+  font-size: 25px;
+  font-weight: 600;
+}
+.down {
+  font-weight: 600;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 60vh; /* Adjust this value as needed */
+  overflow-y: auto;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  max-width: 500px; /* Adjust the width as needed */
+  height: 90px; /* Adjust the height as needed */
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #3849aa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.correct {
+  background-color: rgb(65, 126, 65);
+}
+
+.btn.wrong {
+  background-color: rgb(206, 44, 44);
+}
+
+.correct-answer {
+  background-color: rgb(65, 126, 65);
+}
+
+#score-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#view-answers-btn,
+#restart-btn {
+  display: none;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-answers .question-div {
+  width: 100%;
+  max-width: 500px; /* Match this with the max width of #quiz-container */
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.view-answers .btn-container {
+  width: 100%;
+  max-width: 600px; /* Match this with the max width of #quiz-container */
+}
+
+@media only screen and (max-width: 600px) {
+  #question-number {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  #question-container {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}

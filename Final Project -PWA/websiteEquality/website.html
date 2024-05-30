@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gender Equality Awareness</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/easy.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/lipat.css">
+    <link rel="shortcut icon" href="../mainSite/logoGender.png" type="image/x-icon" />
+
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="icon" href="logoGender.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="logoGender.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Gender's Application" />
+    <meta name="msapplication-TileImage" content="logoGender.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Start site wrapper -->
+    <div class="site-wrapper" id="home">
+      <div class="header-index">
+        <!-- ====== 1.1. Header section ====== -->
+        <header>
+          <nav class="container navbar">
+            <div class="container-nav flex">
+              <!-- site logo -->
+              <a class="navbar-logo"
+                ><img src="Images/logo.png" alt="logo"
+              /></a>
+              <button class="navbar-toggler" onclick="openNav()" type="button">
+                <span class="fa-solid fa-bars"></span>
+              </button>
+              <!-- menus -->
+              <ul class="navbar-nav flex">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#learninginfo">Learn</a></li>
+                <li><a class="nav-link" href="#statistics">Statistics</a></li>
+                <li><a class="nav-link" href="#article">Article</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex nav-right">
+              <!-- header buttons -->
+              <i onclick="open_right_side()" class="fa-solid fa-bars"></i>
+            </div>
+          </nav>
+          <!-- Sidebar -->
+          <aside id="mySidepanel" class="sidepanel">
+            <div class="sidebar flex">
+              <a href=""><img src="Images/logo.png" alt="logo" /></a>
+              <button class="closebtn btn_hover1" onclick="closeNav()">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div>
+              <!-- side menus -->
+              <ul>
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#learninginfo">Learn</a></li>
+                <li><a class="nav-link" href="#statistics">Statistics</a></li>
+                <li><a class="nav-link" href="#article">Article</a></li>
+                <li><a class="nav-link" href="../mainSite/index.html">Back To The Main Website</a></li>
+              </ul>
+            </div>
+          </aside>
+
+      
+
+          <!-- Right Sidebar -->
+          <section class="header-right-sidebar" id="right_side">
+            <div class="flex flex-sb">
+              <a href="/"
+                ><img src="Images/right-side-logo.png" alt="logo"
+              /></a>
+              <button
+                class="close_right_sidebar fa-solid fa-xmark"
+                onclick="close_right_sade()"
+              ></button>
+            </div>
+            <p>
+              Promoting gender equality includes ensuring equal opportunities in the workforce and equal pay for equal work. This empowers individuals to achieve economic independence.
+            </p>
+            <hr />
+            <h4>Connected Details:</h4>
+            <ul class="flex">
+              <li>
+                <a href="#"> <i class="fa-solid fa-phone"></i></a>
+                <a href="#">+123-456-7890</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa-regular fa-envelope"></i></a>            
+                <a href="#" class="text-lowercase" style="text-transform: lowercase;">genderequality@gmail.com</a>
+              </li>
+            </ul>
+            <span class="flex">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </span>
+            <div class="center-btn flex">
+              <a href="../mainSite/index.html" class="btn_hover1">Back</a>
+            </div>
+          </section>
+        </header>
+        <!-- ====== End of  Header section ====== -->
+        <!-- ======  hero section ====== -->
+        <section class="hero">
+          <div class="container" data-aos="zoom-in">
+            <div>
+              <div class="center-data">
+                <h1 style="color: #3d0f41;">Empower Pilipinas</h1>
+                <h3 style="color: #EB3B28;">Advancing Gender Equality</h3>
+                <div class="center-btn flex">
+                  <a href="#about" class="btn_hover1">Get Started</a>
+                  <a href="#learninginfo" class="btn_hover2">Learn Gender Equality</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ====== End of  hero section ====== -->
+      </div>
+     
+      
+      <!-- ======  About section ====== -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-data flex-sb">
+            <div class="w-50" data-aos="fade-up">
+              <div class="flex about-title">
+                <hr />
+                <h5>ABOUT</h5>
+              </div>
+              <h2>Promote Gender Equality for a Brighter, Fairer Future!</h2>
+              <p>
+                Gender bias is undermining our social fabric and devalues all of us. It is not just a human rights issue; it is a tremendous waste of the world’s human potential. By denying women equal rights, we deny half the population a chance to live life at its fullest. Political, economic and social equality for women will benefit all the world’s citizens. Together we can eradicate prejudice and work for equal rights and respect for all.
+
+              </p>
+              <div class="flex gap-1 mt-15">
+                <i class="fa-solid fa-check"></i>
+                <h5>Promote equal access to education and opportunities for all genders from an early age.</h5>
+              </div>
+              <div class="flex gap-1 mt-15">
+                <i class="fa-solid fa-check"></i>
+                <h5>Implement policies and initiatives that address systemic biases and stereotypes in the workplace and society.</h5>
+              </div>
+            
+            </div>
+            <div class="about-imgs flex flex-center w-50" data-aos="fade-down">
+              <div>
+                <figure>
+                  <img src="Images/home/about.jpg" alt="img" />
+                </figure>
+              </div>
+              <div class="ab-count flex flex-center">
+                <img src="Images/home/logoequality.png" alt="img">
+              </div>
+              <div class="about-hr flex gap-1">
+                <hr />  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End of  About us section ====== -->
+      <!-- ======  learning section ====== -->
+      <section class="learnedText"  id="learninginfo">
+        <div class="learnedText-1">
+            <div class="container">
+                <div class="learned-center" data-aos="fade-up">
+                    <div class="w-50">
+                        <div class="flex gap-1">
+                            <hr class="learning-hr1">
+                            <h5>LEARN</h5>
+                        </div>
+                        <h2 class="mt-15">You Need To Know</h2>
+                        <p>Promoting equal opportunities, rights, and respect for all genders to foster an inclusive and fair society.
+                        </p>
+                    </div>
+                   
+                    <hr class="mt-30">
+                </div>
+            </div>
+        </div>
+        <div class="learning">
+            <div class="ga-bg"> </div>
+            <!-- overly -->
+            <span> </span>
+            <div class="container" data-aos="fade-up">
+                <!-- Tab links -->
+                <div class="tab mb-15">
+                    <button class="tablinks active" onclick="open_info(event, 'learn')">THE TARGETS</button>
+                    <button class="tablinks" onclick="open_info(event, 'todo')">THINGS TO DO</button>
+                    <button class="tablinks" onclick="open_info(event, 'facts')">FACTS AND FIGURE</button>
+                </div>
+                <!-- Tab content -->
+                <div id="learn" class="tabcontent" style="display: block;">
+                    <div class="flex flex-center">
+                        <div class="flex w-100">
+
+                          <h3 style="  color: #ffffff;">
+                            Everyone can help to make sure that we meet the Global Goals. Use these
+                            nine targets to create action for gender equality.
+                          </h3>
+                          <div class="container1">
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/home/goal1.svg" alt="Image 1" />
+                                <div class="text-container">
+                                  <h3>END DISCRIMINATION AGAINST WOMEN AND GIRLS</h3>
+                                  <p>
+                                    End all forms of discrimination against all women and girls
+                                    everywhere.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/home/goal2.svg" alt="Image 2" />
+                                <div class="text-container">
+                                  <h3>
+                                    END ALL VIOLENCE AGAINST AND EXPLOITATION OF WOMEN AND GIRLS
+                                  </h3>
+                                  <p>
+                                    Eliminate all forms of violence against all women and girls in the
+                                    public and private spheres, including trafficking and sexual and
+                                    other types of exploitation.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/home/goal3.svg" alt="Image 1" />
+                                <div class="text-container">
+                                  <h3>ELIMINATE FORCED MARRIAGES AND GENITAL MUTILATION</h3>
+                                  <p>
+                                    Eliminate all harmful practices, such as child, early and forced
+                                    marriage and female genital mutilation.Paragraph text for row 3.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/home/goal4.svg" alt="Image 2" />
+                                <div class="text-container">
+                                  <h3>
+                                    VALUE UNPAID CARE AND PROMOTE SHARED DOMESTIC RESPONSIBILITIES
+                                  </h3>
+                                  <p>
+                                    Recognize and value unpaid care and domestic work through the
+                                    provision of public services, infrastructure and social protection
+                                    policies and the promotion of shared responsibility within the
+                                    household and the family as nationally appropriate.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/home/goal5.svg" alt="Image 1" />
+                                <div class="text-container">
+                                  <h3>ENSURE FULL PARTICIPATION IN LEADERSHIP AND DECISION-MAKING</h3>
+                                  <p>
+                                    Ensure women’s full and effective participation and equal
+                                    opportunities for leadership at all levels of decision-making in
+                                    political, economic and public life.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/home/goal6.svg" alt="Image 2" />
+                                <div class="text-container">
+                                  <h3>UNIVERSAL ACCESS TO REPRODUCTIVE HEALTH AND RIGHTS</h3>
+                                  <p>
+                                    Ensure universal access to sexual and reproductive health and
+                                    reproductive rights as agreed in accordance with the Programme of
+                                    Action of the International Conference on Population and
+                                    Development and the Beijing Platform for Action and the outcome
+                                    documents of their review conferences.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/home/goal7.svg" alt="Image 1" />
+                                <div class="text-container">
+                                  <h3>
+                                    EQUAL RIGHTS TO ECONOMIC RESOURCES, PROPERTY OWNERSHIP AND
+                                    FINANCIAL SERVICES
+                                  </h3>
+                                  <p>
+                                    Undertake reforms to give women equal rights to economic
+                                    resources, as well as access to ownership and control over land
+                                    and other forms of property, financial services, inheritance and
+                                    natural resources, in accordance with national laws.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/home/goal8.svg" alt="Image 2" />
+                                <div class="text-container">
+                                  <h3>PROMOTE EMPOWERMENT OF WOMEN THROUGH TECHNOLOGY</h3>
+                                  <p>
+                                    Enhance the use of enabling technology, in particular information
+                                    and communications technology, to promote the empowerment of
+                                    women.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/home/goal9.svg" alt="Image 1" />
+                                <div class="text-container">
+                                  <h3>
+                                    ADOPT AND STRENGTHEN POLICIES AND ENFORCEABLE LEGISLATION FOR
+                                    GENDER EQUALITY
+                                  </h3>
+                                  <p>
+                                    Adopt and strengthen sound policies and enforceable legislation
+                                    for the promotion of gender equality and the empowerment of all
+                                    women and girls at all levels.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="todo" class="tabcontent">
+                    <div class="flex flex-center">
+                        <div class="flex w-100">
+
+                          <div class="container1">
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    Women earn 10 to 30 per cent less than men for the same work. Pay
+                                    inequality persists everywhere. Voice your support for equal pay
+                                    for equal work.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 2" />
+                                <div class="text-container">
+                                  <p>
+                                    Find a Goal 5 charity you want to support. Any donation, big or
+                                    small, can make a difference!
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    Be aware of gender stereotypes. Recognize them, avoid them and
+                                    educate others about them.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 2" />
+                                <div class="text-container">
+                                  <p>
+                                    Stand up against harassment. Whenever you see or become aware of
+                                    harassment, whether in the workplace, streets, home or the online
+                                    space, raise your voice against it.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    Find female mentors/leaders. Ensure that some of your role models
+                                    or mentors are women. There’s a lot you can learn from women in
+                                    positions of authority.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 2" />
+                                <div class="text-container">
+                                  <p>
+                                    Share the workload at home. Sharing domestic responsibilities
+                                    ensures the work burden doesn’t fall only on one person and
+                                    instills the value of gender equality and essential life skills in
+                                    children.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature2.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    Stay informed. Follow your local news and stay in touch with the
+                                    Global Goals online or on social media
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="facts" class="tabcontent">
+                    <div class="flex flex-center">
+                        <div class="flex w-100">
+
+                          <div class="container1">
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature1.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    With only seven years remaining, a mere 15.4 per cent of Goal 5 indicators with data are “on track”, 61.5 per cent are at a moderate distance and 23.1 per cent are far or very far off track from 2030 targets.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/icon/feature1.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    In many areas, progress has been too slow. At the current rate, it will take an estimated 300 years to end child marriage, 286 years to close gaps in legal protection and remove discriminatory laws, 140 years for women to be represented equally in positions of power and leadership in the workplace, and 47 years to achieve equal representation in national parliaments.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature1.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    Political leadership, investments and comprehensive policy reforms are needed to dismantle systemic barriers to achieving Goal 5. Gender equality is a cross-cutting objective and must be a key focus of national policies, budgets and institutions.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/icon/feature1.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    Around 2.4 billion women of working age are not afforded equal economic opportunity. Nearly 2.4 Billion Women Globally Don’t Have Same Economic Rights as Men 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img src="Images/icon/feature1.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    178 countries maintain legal barriers that prevent women’s full economic participation. Nearly 2.4 Billion Women Globally Don’t Have Same Economic Rights as Men
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="column">
+                                <img src="Images/icon/feature1.png" alt="Image 1" />
+                                <div class="text-container">
+                                  <p>
+                                    In 2019, one in five women, aged 20-24 years, were married before the age of 18. Girls | UN Special Representative of the Secretary-General on Violence Against Children
+                                  </p>
+                                </div>
+                              </div>
+                            </div>                  
+                  
+                          </div>
+                           <!-- last -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- dalawa talaga  -->
+            </div>
+        </div>
+    </section>
+      <!-- ====== End of Learn section ====== -->
+
+
+      <!-- ======  statics section ====== -->
+      <section class="statics" id="statistics">
+        <div class="container">
+          <div class="flex-wrap exp-center" data-aos="fade-up">
+            <div class="w-66">
+              <div class="flex gap-1">
+                <hr class="statics-hr1 m-0" />
+                <h5>STATISTICS</h5>
+              </div>
+              <h2>Gender Equality and Challenges in the Philippines</h2>
+              <p class="mt-1">
+                Empower change, advocate for justice, and strive for equality. Together, we can end violence and achieve a more equitable future for all.
+              </p>
+            </div>
+            <hr />
+          </div>
+          <div class="flex flex-sb">
+            <div class="w-50 p-relative flex flex-center" data-aos="zoom-in">
+              <div class="statics_mask">
+                <figure>
+                  <img src="Images/home/statistics.jpg" alt="img" />
+                </figure>
+              </div>
+             
+            </div>
+            <div class="w-50 flex flex-col gap-2 mt-1">
+              <div class="flex gap-1 ex-card" data-aos="fade-up">
+                <div class="flex flex-center">
+                  <h3>16.5</h3>
+                  <h3>%</h3>
+                </div>
+                <div>
+                  <h4>Early Marriage</h4>
+                  <p>
+                    Women aged 20–24 years old who were married or in a union before age 18. 
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex gap-1 ex-card"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="flex flex-center">
+                  <h3>16th</h3>
+                </div>
+                <div>
+                  <h4>Philippines Rank Asia in Gender Equality</h4>
+                  <p>
+                    Philippines even ranked 16th among 146 countries, in the 2023 World Economic Forum's (WEF) Global Gender Gap Index report (GGGR).
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex gap-1 ex-card"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="flex flex-center">
+                  <h3>18</h3>
+                  <h3>%</h3>
+                </div>
+                <div>
+                  <h4>Filipino Women Report Partner Violence</h4>
+                  <p>
+                    Philippine National Demographic and Health Survey (NDHS) shows that 18% of Filipino women who had a husband or intimate partner, reported having experienced physical, sexual or emotional violence by their most recent partner.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End of  statics section ====== -->
+
+      <!-- ======  steps section ====== -->
+      <section class="steps">
+        <div class="container position-relative">
+          <div class="steps-para text-center" data-aos="fade-up">
+            <h2 class="h2_margin">Key Steps for Achieving Gender Equality</h2>
+            <p>
+              Equality thrives when every voice is heard and every opportunity is shared. Let's work together to create a world where gender never limits potential.
+            </p>
+          </div>
+          <div class="steps-line flex flex-center gap-1 flex-wrap p-relative">
+            <div data-aos="zoom-in">
+              <h2>01.</h2>
+              <h4 style="font-size: medium;">Economic Empowerment</h4>
+            </div>
+            <div data-aos="zoom-in">
+              <h2>02.</h2>
+              <h4>Education and Awareness</h4>
+            </div>
+            <div data-aos="zoom-in">
+              <h2>03.</h2>
+              <h4>Inclusive Policies</h4>
+            </div>
+            <div data-aos="zoom-in">
+              <h2>04.</h2>
+              <h4>Advocacy and Support</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End of  steps section ====== -->
+
+       <!-- ======  card section ====== -->
+       <section class="feature">
+        <div class="container">
+          <div class="flex">
+            <div class="header-card" data-aos="fade-up">
+              <div>
+                <h4>Economic Empowerment</h4>
+                <p>
+                  Promoting gender equality includes ensuring equal opportunities in the workforce and equal pay for equal work. This empowers individuals to achieve economic independence.
+                </p>
+              </div>
+            </div>
+            <div class="header-card" data-aos="fade-down">
+              <div>
+                <h4>Education and Awareness</h4>
+                <p>
+                  Providing equal access to education and raising awareness about gender biases helps to break down stereotypes and open up opportunities for all genders to succeed.
+                </p>
+              </div>
+            </div>
+            <div class="header-card" data-aos="fade-up">
+              <div>
+                <h4>Inclusive Policies</h4>
+                <p>
+                  Implementing policies that promote work-life balance, parental leave, and anti-discrimination measures helps create an inclusive environment where all genders can thrive professionally and personally.
+                </p>
+              </div>
+            </div>
+            <div class="header-card" data-aos="fade-down">
+              <div>
+                <h4>Advocacy and Support</h4>
+                <p>
+                  Supporting initiatives that advocate for gender equality and provide resources for marginalized groups can help to bridge gaps in representation and opportunities. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End card section ====== -->
+
+
+      <!-- ======  articles section ====== -->
+      <section class="article" id="article">
+        <div class="container">
+          <div class="flex article-center" data-aos="fade-down">
+            <div class="w-66">
+              <div class="flex gap-1">
+                <hr class="article-hr1" />
+                <h5>ARTICLE</h5>
+              </div>
+              <h2 class="mt-1">Related Article</h2>
+            </div>
+          </div>
+          <div class="flex gap-2 mt-15 article-cards">
+            <div data-aos="fade-up" class="article-card w-100">
+              <img src="Images/home/article1.png" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h4>Philippines Improves in 2023 World Gender Equality Ranking</h4>
+                <a target="_blank" href="https://www.pids.gov.ph/details/news/in-the-news/philippines-improves-in-2023-world-gender-equality-ranking">Visit The Article</a>
+              </div>
+            </div>
+            <div data-aos="fade-down" class="article-card w-100">
+              <img src="Images/home/article2.png" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h4>
+                  UN Sustainable Development Goals: Gender Equality
+                </h4>
+                <a target="_blank" href="https://www.un.org/sustainabledevelopment/gender-equality/">Visit The Article</a>
+              </div>
+            </div>
+            <div data-aos="fade-up" class="article-card w-100">
+              <img src="Images/home/article3.png" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <h4>Unlocking Gender Equality in the Philippines</h4>
+                <a target="_blank" href="https://philippines.unfpa.org/en/news/unlocking-gender-equality-philippines#:~:text=Women%20in%20the%20Philippines%20experience,Gap%20Index%20report%20(GGGR).">Visit The Article</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End of 1.14. articles section ====== -->
+
+
+      <!-- ====== 1.15. Footer section ====== -->
+      <footer>
+        <div class="footer-menu">
+          <div class="container">
+            <div class="flex flex-start footer-center">
+              <div class="w-33 flex flex-col gap-2 flex-start">
+                <a href="index.html"
+                  ><img src="Images/logo.png" alt="footer-logo"
+                /></a>
+                <p>
+                  Gender equality is not just a women's issue, it is a human rights issue that benefits everyone. When women and girls have equal access to education, healthcare, and opportunities, societies prosper and everyone enjoys greater well-being.
+                </p>
+                <span class="flex gap-2">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </span>
+              </div>
+              <div class="w-16 mt-1">
+                <h4>Quick Links</h4>
+                <ul class="flex flex-col gap-2 flex-start">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#learninginfo">Learn</a></li>
+                  <li><a href="#article">Article</a></li>
+                </ul>
+              </div>
+              <div class="w-16 mt-45 flex-end">
+                <ul class="flex flex-col gap-2 flex-start">
+                  <li><a href="#statistics">Statistics</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="w-33 mt-1 flex flex-col flex-start">
+                <h4>Get Connected</h4>
+                <ul class="flex flex-col gap-2 flex-start">
+                  <li>
+                    <a href="#"> <i class="fa-solid fa-phone"></i></a>                   
+                    <a href="#">+123-456-7890</a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa-regular fa-envelope"></i></a>
+                    <a href="#" class="text-lowercase" style="text-transform: lowercase;">genderequality@gmail.com</a>              
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </footer>
+    </div>
+
+    <!-- end site wrapper -->
+
+    <!-- button back to top -->
+    <button onclick="scrollToTop()" id="backToTopBtn" class="btn_hover2">
+      <i class="fa-solid fa-arrow-turn-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- library  -->
+
+    <script>
+      AOS.init({
+        offset: 100, // Lowering the offset to make it faster
+        duration: 800, // Reducing the duration to speed up the animation
+        once: true,
+        disable: 'mobile' // Disable animations on mobile devices for better performance
+      });
+      
+    </script>
+    
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

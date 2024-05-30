@@ -1,0 +1,35 @@
+{
+  "name": "Gender's Application",
+  "short_name": "Gender's Application",
+  "icons": [
+    {
+      "src": "/mainSite/logoGender.png",
+      "sizes": "60x60",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/mainSite/logoGender.png",
+      "sizes": "90x90",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/mainSite/logoGender.png",
+      "sizes": "100x100",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/mainSite/logoGender.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "en-US",
+  "start_url": "/mainSite/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}

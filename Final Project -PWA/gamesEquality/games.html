@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gender Equality Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../websiteEquality/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../mainSite/logoGender.png"
+      type="image/x-icon"
+    />
+
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="icon" href="logoGender.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="logoGender.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Gender's Application" />
+    <meta name="msapplication-TileImage" content="logoGender.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+  </head>
+  <body>
+    <div class="center-btn flex">
+      <a href="../mainSite/index.html" class="btn_hover1">Back</a>
+    </div>
+    <div class="container">
+      <div id="quiz-container">
+        <div id="question-number"></div>
+        <div id="question-container"></div>
+        <div id="answer-buttons" class="btn-container"></div>
+      </div>
+      <div id="score-container">
+        <p class="down">Score: <span id="score">0</span></p>
+        <p class="down">Correct Streak: <span id="streak">0</span></p>
+      </div>
+      <button id="view-answers-btn" class="btn">View Answers</button>
+      <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+    <audio id="correct-sound" src="music/correct.mp3" preload="auto"></audio>
+    <audio id="wrong-sound" src="music/wrong.mp3" preload="auto"></audio>
+    <audio
+      id="background-music"
+      src="music/background.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

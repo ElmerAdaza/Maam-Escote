@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #150725;
+}
+
+header .banner {
+  background-color: #ff8c00;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header .banner h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+main .text-section {
+  flex: 1;
+  padding: 1rem;
+  order: 2;
+}
+
+main .text-section h2 {
+  font-size: 1.5rem;
+  color: #f3dede;
+}
+
+main .text-section p {
+  font-size: 1rem;
+  color: #f3dede;
+}
+
+main .text-section .button-group {
+  margin-top: 1rem;
+}
+
+main .text-section button {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+main .text-section button:hover {
+  background-color: #ff7000;
+}
+
+main .image-section {
+  flex: 1;
+  text-align: right;
+  order: 1;
+}
+
+main .image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0px 0px 4px 5px #ff8c00;
+}
+
+@media (max-width: 768px) {
+  main .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .image-section {
+    text-align: center;
+  }
+
+  main .text-section {
+    text-align: center;
+  }
+
+  main .text-section .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .text-section button {
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+}
